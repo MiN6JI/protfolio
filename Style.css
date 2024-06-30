@@ -24,9 +24,9 @@ body {
     flex-wrap: wrap;
 }
 
-.col-6 {
-    /* width: 50%; */
-}
+/* .col-6 {
+    width: 50%;
+} */
 
 .img {
     width: 30%;
