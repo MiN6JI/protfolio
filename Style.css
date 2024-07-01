@@ -423,5 +423,51 @@ ul li a {
     color: white;
 }
 
+.faq-section{
+    margin-top: 40px;
+}
 
+.faq-block{
+    width: 100%;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.b-bttm{
+    border-bottom: 1px solid #585d65;
+}
+
+.question{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer{
+    padding: 0px 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease ;
+}
+
+.answer p{
+    font-weight: 200;
+    letter-spacing: 0.8px;
+    color: #e7e7e7;
+}
+
+
+.faq-block.active .answer{
+    max-height: 300px;
+}
+
+.faq-block.active .question img{
+    transform: rotate(180deg);
+}
+
+.question img{
+    transition: transform 0.3s ease-in-out;
+}
 
