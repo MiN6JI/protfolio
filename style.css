@@ -225,6 +225,7 @@ ul li a {
     padding: 70px;
     border-bottom: 1px solid #585d65;
     z-index: 3;
+    transition: 1.4s ease;
     /* Ensure name block is above the image but below header */
 }
 
