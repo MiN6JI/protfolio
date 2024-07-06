@@ -583,6 +583,16 @@ textarea:focus {
     .social-icons {
         width: 100%;
         height: auto;
+        border: none;
+    }
+
+    .q-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
     }
 
 }
