@@ -119,6 +119,10 @@ nav {
     font-weight: 800;
 }
 
+.logo-img{
+    width: 36px;
+}
+
 p {
     color: white;
 }
@@ -292,7 +296,6 @@ ul li a {
     font-family: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #e067bc;
 }
 
 .pink {
@@ -675,4 +678,62 @@ textarea:focus {
         padding: 10px;
     }
 
+}
+
+@media (max-width: 625px) {
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .col-50{
+        width: 100%;
+        height: auto;
+    }
+
+    .project-img {
+        width: 100%;
+        height: 100%;
+        background-color: #585d65;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-container{
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        left: 7%;
+    }
+
+    .logo{
+        font-size: 22px;
+    }
+
+    .logo-img{
+        width: 25px;
+    }
+    
+    .name h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .title h2 {
+        font-size: 2.8rem;
+    }
+
+    .subtitle {
+        font-family: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #e067bc;
+    }
 }
