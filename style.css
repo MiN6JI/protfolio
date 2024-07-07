@@ -707,6 +707,16 @@ textarea:focus {
 }
 
 @media (max-width: 480px) {
+    .img {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .img-01 {
+        width: 100%;
+        height: 100%;
+    }
+
     .nav-container{
         width: 80%;
         height: 50px;
@@ -720,6 +730,21 @@ textarea:focus {
 
     .logo-img{
         width: 25px;
+    }
+
+    .info-container,
+    .about-container,
+    .service-container,
+    .experience-container,
+    .education-container,
+    .skills-container,
+    .project-container,
+    .faq-container,
+    .contact-container {
+        padding: 30px;
+        border-bottom: 1px solid #585d65;
+        z-index: 3;
+        transition: 1.4s ease;
     }
     
     .name h1 {
