@@ -1,3 +1,53 @@
+/* :root {
+    --primary: #2F3645;
+    --secondary: #89877f;
+    --unique: #ec7d4e;
+    --white: #EEEDEB;
+} */
+
+/* :root {
+    --primary: #373b40;
+    --secondary: #585d65;
+    --unique: #e067bc;
+    --white: #fff;
+} */
+
+/* :root {
+    --primary: #0C1844;
+    --secondary: #FF6969;
+    --unique: #C80036;
+    --white: #FFF5E1;
+} */
+
+/* :root {
+    --primary: #0C1844;
+    --secondary: #FF6969;
+    --unique: #C80036;
+    --white: #FFF5E1;
+} */
+
+/* :root {
+    --primary: #45474B;
+    --secondary: #379777;
+    --unique: #F4CE14;
+    --white: #F5F7F8;
+} */
+
+/* :root {
+    --primary: #040D12;
+    --secondary: #183D3D;
+    --unique: #5C8374;
+    --white: #fff;
+} */
+
+:root {
+    --primary: #373b40;
+    --secondary: #585d65;
+    --unique: #e067bc;
+    --white: #fff;
+}
+
+
 html::-webkit-scrollbar {
     overflow: hidden;
     display: none;
@@ -7,7 +57,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #373b40;
+    background-color: var(--primary);
     font-family: "Poppins", sans-serif;
 }
 
@@ -20,7 +70,7 @@ body {
 }
 
 nav {
-    /* background-color: white; */
+    /* background-color: var(--white); */
     width: 100%;
     height: 10%;
 }
@@ -28,7 +78,7 @@ nav {
 .nav-container {
     width: 90%;
     height: 80px;
-    background-color: #585d65;
+    background-color: var(--secondary);
     position: absolute;
     left: 5%;
     top: 30px;
@@ -78,7 +128,7 @@ nav {
 
 .social-icons {
     width: 7%;
-    border-left: 1px solid #585d65;
+    border-left: 1px solid var(--secondary);
 }
 
 .scroll::-webkit-scrollbar {
@@ -104,7 +154,7 @@ nav {
     left: 5%;
     z-index: 100;
     border-radius: 50px;
-    background-color: #585d65;
+    background-color: var(--secondary);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -114,17 +164,17 @@ nav {
 }
 
 .logo {
-    color: white;
+    color: var(--white);
     font-size: 28px;
     font-weight: 800;
 }
 
-.logo-img{
+.logo-img {
     width: 36px;
 }
 
 p {
-    color: white;
+    color: var(--white);
 }
 
 h1,
@@ -133,7 +183,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: white;
+    color: var(--white);
     line-height: 0.8;
 }
 
@@ -152,7 +202,7 @@ h6 {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    border: 1px solid #585d65;
+    border: 1px solid var(--secondary);
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -170,7 +220,7 @@ ul li {
 
 .icon-box .q-icon .round a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .logo-container {
@@ -207,7 +257,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     font-size: 14px;
     font-weight: 800;
     margin-left: 30px;
@@ -218,13 +268,20 @@ ul li a {
     padding: 20px 40px;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    background-color: transparent;
+    background-color: var(--unique);
     border-radius: 50px;
     font-size: 14px;
-    color: #e067bc;
+    color: var(--white);
     font-weight: 800;
-    border: 0.5px solid #e067bc;
+    border: 0.5px solid var(--unique);
     cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    transition: 0.6s ease;
 }
 
 .contact-btn {
@@ -234,16 +291,16 @@ ul li a {
     background-color: transparent;
     border-radius: 50px;
     font-size: 14px;
-    color: white;
+    color: var(--white);
     font-weight: 800;
-    border: 0.5px solid #585d65;
+    border: 1px solid var(--secondary);
     cursor: pointer;
     transition: 0.6s ease;
 }
 
 .contact-btn:hover {
-    border: 1px solid #e067bc;
-    color: #e067bc;
+    border: 1px solid var(--unique);
+    background-color: var(--unique);
 }
 
 .info-container,
@@ -256,14 +313,14 @@ ul li a {
 .faq-container,
 .contact-container {
     padding: 70px;
-    border-bottom: 1px solid #585d65;
+    border-bottom: 1px solid var(--secondary);
     z-index: 3;
     transition: 1.4s ease;
 }
 
 .name {
     box-sizing: border-box;
-    background-color: #373b40;
+    background-color: var(--primary);
     z-index: 3;
 }
 
@@ -276,7 +333,7 @@ ul li a {
     font-family: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #e067bc;
+    color: var(--unique);
 }
 
 .text {
@@ -302,7 +359,7 @@ ul li a {
     font-family: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #e067bc;
+    color: var(--unique);
 }
 
 .row {
@@ -335,7 +392,7 @@ ul li a {
 .ans {
     width: 60%;
     text-align: left;
-    color: white;
+    color: var(--white);
     font-size: 14px;
     font-weight: 400
 }
@@ -351,7 +408,7 @@ ul li a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #e067bc;
+    background-color: var(--unique);
     margin-bottom: 15px;
 }
 
@@ -363,7 +420,7 @@ ul li a {
     font-size: 18px;
     font-weight: 800;
     text-transform: capitalize;
-    color: white;
+    color: var(--white);
     margin-bottom: 30px;
 }
 
@@ -392,13 +449,13 @@ ul li a {
 .grey-bar {
     width: 100%;
     height: 5px;
-    background-color: #585d65;
+    background-color: var(--secondary);
 }
 
 .pinky-bar {
     width: 80%;
     height: 5px;
-    background-color: #e067bc;
+    background-color: var(--unique);
 }
 
 .skills-heading {
@@ -419,7 +476,7 @@ ul li a {
 .percentage {
     display: flex;
     justify-content: end;
-    color: white;
+    color: var(--white);
     font-size: 14px;
     font-weight: 600;
 }
@@ -431,7 +488,7 @@ ul li a {
 .project-img {
     width: 300px;
     height: 300px;
-    background-color: #585d65;
+    background-color: var(--secondary);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -447,7 +504,7 @@ ul li a {
 .hover-block {
     width: 260px;
     height: 260px;
-    background-color: #e067bc;
+    background-color: var(--unique);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -477,7 +534,7 @@ ul li a {
     font-size: 18px;
     font-weight: 800;
     text-transform: capitalize;
-    color: white;
+    color: var(--white);
 }
 
 .faq-section {
@@ -491,7 +548,7 @@ ul li a {
 }
 
 .b-bttm {
-    border-bottom: 1px solid #585d65;
+    border-bottom: 1px solid var(--secondary);
 }
 
 .question {
@@ -545,19 +602,19 @@ input,
 textarea {
     outline: none;
     padding: 20px;
-    border: 1px solid #585d65;
+    border: 1px solid var(--secondary);
     background-color: transparent;
-    color: white;
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-    color: white;
+    color: var(--white);
     font-weight: 300;
     letter-spacing: 0.5px;
 }
 
 input:focus,
 textarea:focus {
-    border: 1px solid #e067bc;
+    border: 1px solid var(--unique);
 }
 
 .ipt-block {
@@ -576,7 +633,7 @@ textarea:focus {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
-    color: white;
+    color: var(--white);
     font-weight: 800;
 }
 
@@ -652,7 +709,7 @@ textarea:focus {
     .faq-container,
     .contact-container {
         padding: 50px;
-        border-bottom: 1px solid #585d65;
+        border-bottom: 1px solid var(--secondary);
         z-index: 3;
         transition: 1.4s ease;
     }
@@ -690,7 +747,7 @@ textarea:focus {
         margin-top: 20px;
     }
 
-    .col-50{
+    .col-50 {
         width: 100%;
         height: auto;
     }
@@ -698,7 +755,7 @@ textarea:focus {
     .project-img {
         width: 100%;
         height: 100%;
-        background-color: #585d65;
+        background-color: var(--secondary);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -717,18 +774,18 @@ textarea:focus {
         height: 100%;
     }
 
-    .nav-container{
+    .nav-container {
         width: 80%;
         height: 50px;
         position: absolute;
         left: 7%;
     }
 
-    .logo{
+    .logo {
         font-size: 22px;
     }
 
-    .logo-img{
+    .logo-img {
         width: 25px;
     }
 
@@ -742,15 +799,16 @@ textarea:focus {
     .faq-container,
     .contact-container {
         padding: 30px;
-        border-bottom: 1px solid #585d65;
+        border-bottom: 1px solid var(--secondary);
         z-index: 3;
         transition: 1.4s ease;
     }
-    
+
     .name h1 {
         font-size: 2rem;
         line-height: 1.2;
     }
+
     .title h2 {
         font-size: 2.8rem;
     }
@@ -759,6 +817,6 @@ textarea:focus {
         font-family: 12px;
         font-weight: 600;
         text-transform: uppercase;
-        color: #e067bc;
+        color: var(--unique);
     }
 }
