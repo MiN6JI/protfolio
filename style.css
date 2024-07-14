@@ -6,20 +6,6 @@
 } */
 
 /* :root {
-    --primary: #373b40;
-    --secondary: #585d65;
-    --unique: #e067bc;
-    --white: #fff;
-} */
-
-/* :root {
-    --primary: #0C1844;
-    --secondary: #FF6969;
-    --unique: #C80036;
-    --white: #FFF5E1;
-} */
-
-/* :root {
     --primary: #0C1844;
     --secondary: #FF6969;
     --unique: #C80036;
@@ -36,7 +22,7 @@
 /* :root {
     --primary: #040D12;
     --secondary: #183D3D;
-    --unique: #5C8374;
+    --unique: #3bcf96;
     --white: #fff;
 } */
 
@@ -532,7 +518,7 @@ ul li a {
 }
 
 .question {
-    padding: 0px 10px;
+    padding: 15px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -624,6 +610,11 @@ textarea:focus {
 .download-btn a{
     color: white;
     text-decoration: none;
+}
+
+.small-title{
+    padding-top: 7px;
+    line-height: 2;
 }
 
 /* Mobile Header  */
