@@ -312,6 +312,7 @@ ul li a {
     font-weight: 600;
     text-transform: uppercase;
     color: var(--unique);
+    line-height: 3;
 }
 
 .text {
@@ -331,6 +332,7 @@ ul li a {
     font-family: 14px;
     font-weight: 600;
     text-transform: uppercase;
+    line-height: 4;
 }
 
 .pink {
