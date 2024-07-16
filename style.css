@@ -61,11 +61,11 @@ body {
 }
 
 nav {
+    display: none;
     padding: 0px 30px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #004274;
+    background: var(--primary);
     position: relative;
     height: 70px;
 }
@@ -670,6 +670,7 @@ textarea:focus {
 
         /* Nav  */
         nav{
+            display: flex;
             z-index: 2000;
         }
         nav ul {
@@ -677,8 +678,12 @@ textarea:focus {
             top: 70px;
             left: 0;
             right: 0;
+            display: flex;
             flex-direction: column;
-            background: #004274;
+            justify-content: center;
+            align-items: flex-end;
+            padding-right: 40px;
+            background: var(--primary);
             gap: 0;
             overflow: hidden;
         }

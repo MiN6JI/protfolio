@@ -20,3 +20,12 @@ function toggleMenu() {
     document.body.classList.remove("no-scroll");
   }
 }
+
+const menuLinks = document.querySelectorAll(".menu-link");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    menuList.style.maxHeight = "0px";
+    document.body.classList.remove("no-scroll");
+  });
+});
