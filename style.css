@@ -97,7 +97,7 @@ nav ul li a {
 
 .menu-icon i {
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 /* Nav  */
@@ -439,7 +439,7 @@ ul li a {
 
 .vert-text {
     position: absolute;
-    top: 35px;
+    top: 28px;
     left: -30px;
     width: 20%;
     font-size: 11px;
@@ -784,6 +784,10 @@ textarea:focus {
     }
 
     .social-icons {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0px 30px;
         width: 100%;
         height: auto;
         border: none;
@@ -830,6 +834,26 @@ textarea:focus {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .additional {
+        padding: 20px 0px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;   
+    }
+
+    .additional .mini-title{
+        margin-bottom: 10px;
+    }
+
+    .vert-text{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .arrange-title{
+        position: static;
     }
 }
 
