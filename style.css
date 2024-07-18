@@ -404,6 +404,11 @@ ul li a {
     font-weight: 400
 }
 
+.ans a{
+    color: white;
+    text-decoration: none;
+}
+
 .service-list {
     margin-top: 30px;
     display: flex;
@@ -848,6 +853,7 @@ textarea:focus {
     }
 
     .vert-text{
+        width: 100%;
         position: static;
         transform: rotate(0deg);
     }
