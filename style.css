@@ -404,7 +404,7 @@ ul li a {
     font-weight: 400
 }
 
-.ans a{
+.ans a {
     color: white;
     text-decoration: none;
 }
@@ -663,54 +663,63 @@ textarea:focus {
     line-height: 2;
 }
 
+#desktop-show {
+    display: flex;
+}
+
+#mobile-show {
+    display: none;
+}
+
 /* Mobile Header  */
 
 .no-scroll {
     overflow: hidden;
-  }
+}
 
 
 
 @media (max-width: 992px) {
 
-        /* Nav  */
-        nav{
-            display: flex;
-            z-index: 2000;
-        }
-        nav ul {
-            position: absolute;
-            top: 70px;
-            left: 0;
-            right: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-end;
-            padding-right: 40px;
-            background: var(--primary);
-            gap: 0;
-            overflow: hidden;
-        }
-        
-        nav ul li {
-            padding: 20px;
-            padding-top: 0;
-        }
-    
-        .menu-icon {
-            display: block;
-        }
-    
-        #menuList {
-            transition: all 0.5s;
-        }
-    
-        /* Nav  */
-    
-        .nav{
-            display: none;
-        }
+    /* Nav  */
+    nav {
+        display: flex;
+        z-index: 2000;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 40px;
+        background: var(--primary);
+        gap: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menuList {
+        transition: all 0.5s;
+    }
+
+    /* Nav  */
+
+    .nav {
+        display: none;
+    }
 
     body {
         overflow: visible;
@@ -813,6 +822,13 @@ textarea:focus {
         padding: 10px;
     }
 
+    #desktop-show {
+        display: none;
+    }
+
+    #mobile-show {
+        display: flex;
+    }
 }
 
 @media (max-width: 625px) {
@@ -845,20 +861,20 @@ textarea:focus {
         padding: 20px 0px;
         position: relative;
         display: flex;
-        flex-direction: column-reverse;   
+        flex-direction: column-reverse;
     }
 
-    .additional .mini-title{
+    .additional .mini-title {
         margin-bottom: 10px;
     }
 
-    .vert-text{
+    .vert-text {
         width: 100%;
         position: static;
         transform: rotate(0deg);
     }
 
-    .arrange-title{
+    .arrange-title {
         position: static;
     }
 }
