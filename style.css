@@ -633,6 +633,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    position: relative;
     gap: 10px;
     padding-bottom: 20px;
 }
@@ -647,6 +648,11 @@ textarea:focus {
     font-size: 14px;
     color: var(--white);
     font-weight: 800;
+    padding: 0px 10px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    background-color: var(--primary);
 }
 
 .submit-block {
