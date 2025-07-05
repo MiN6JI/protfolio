@@ -1,490 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="style.css">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
     <title>MINGJI</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="logo-up">
-            <div class="col-2 logo-container">
-                <img src="images/logo.png" alt="logo" class="logo-img">
-                <h1 class="logo">MINGJI</h1>
-            </div>
+      <div class="logo-up">
+        <div class="col-2 logo-container">
+          <img src="images/logo.png" alt="logo" class="logo-img" />
+          <h1 class="logo">MINGJI</h1>
         </div>
-        <ul id="menuList">
-            <li><a href="#home" class="menu-link">Home</a></li>
-            <li><a href="#about" class="menu-link">About</a></li>
-            <li><a href="#service" class="menu-link">Service</a></li>
-            <li><a href="#experience" class="menu-link">Experience</a></li>
-            <li><a href="#skill" class="menu-link">Portfolio</a></li>
-            <li><a href="#faq" class="menu-link">Faq</a></li>
-            <li><a href="#contact" class="menu-link">Connect</a></li>
-        </ul>
-        <div class="menu-icon">
-            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-        </div>
+      </div>
+      <ul id="menuList">
+        <li><a href="#home" class="menu-link">Home</a></li>
+        <li><a href="#about" class="menu-link">About</a></li>
+        <li><a href="#service" class="menu-link">Service</a></li>
+        <li><a href="#experience" class="menu-link">Experience</a></li>
+        <li><a href="#skill" class="menu-link">Portfolio</a></li>
+        <li><a href="#faq" class="menu-link">Faq</a></li>
+        <li><a href="#contact" class="menu-link">Connect</a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
     </nav>
     <main class="background">
-        <div class="img">
-            <img class="img-01" src="images/women.jpg" alt="man">
-        </div>
-        <div class="context">
-            <div class="nav">
-                <div class="nav-container">
-                    <div class="col-2 logo-container">
-                        <img src="images/logo.png" alt="logo" class="logo-img">
-                        <h1 class="logo">MINGJI</h1>
-                    </div>
-                    <div class="col-6 menu-container">
-                        <ul class="menu">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#experience">Experience</a></li>
-                            <li><a href="#skill">Portfolio</a></li>
-                            <li><a href="#faq">Faq</a></li>
-                            <li><a href="#contact">Connect</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-4 btn">
-                        <div class="bar">
-                            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-                        </div>
-                        <button class="download-btn"><a
-                                href="https://drive.google.com/file/d/1neB52T871avmbdn-W_8gZwH7RGvMP8a3/view?usp=drive_link"
-                                target="_blank">Download CV</a></button>
-                    </div>
-                </div>
+      <div class="img">
+        <img class="img-01" src="images/galaxy.jpg" alt="man" />
+      </div>
+      <div class="context">
+        <div class="nav">
+          <div class="nav-container">
+            <div class="col-2 logo-container">
+              <img src="images/logo.png" alt="logo" class="logo-img" />
+              <h1 class="logo">MINGJI</h1>
             </div>
-            <div class="scroll">
-                <div class="info-container" id="home">
-                    <div class="name">
-                        <h1>Shruti <br> Deorukhkar</h1>
+            <div class="col-6 menu-container">
+              <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skill">Portfolio</a></li>
+                <li><a href="#faq">Faq</a></li>
+                <li><a href="#contact">Connect</a></li>
+              </ul>
+            </div>
+            <div class="col-4 btn">
+              <div class="bar">
+                <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+              </div>
+              <button class="download-btn">
+                <a
+                  href="https://drive.google.com/file/d/1neB52T871avmbdn-W_8gZwH7RGvMP8a3/view?usp=drive_link"
+                  target="_blank"
+                  >Download CV</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <div class="info-container" id="home">
+            <div class="name">
+              <h1>
+                Shruti <br />
+                Deorukhkar
+              </h1>
+            </div>
+            <div class="profession pink">Programmer</div>
+            <div class="self-intro">
+              <p class="text">
+                I'm a talented Software Engineer with a passion for frontend
+                development and a deep focus on Vue 3 and modern JavaScript
+                frameworks. I specialize in building clean, efficient, and
+                user-focused web applications. With a blend of technical skill
+                and analytical thinking, I thrive on solving complex problems
+                and delivering high-quality solutions that align with business
+                goals.
+              </p>
+            </div>
+            <div class="personal-info">
+              <div class="row personal-info-list">
+                <div class="col-50">
+                  <div class="info-list">
+                    <div class="ask pink">Residence:</div>
+                    <div class="ans">India</div>
+                  </div>
+                  <div class="info-list">
+                    <div class="ask pink">Profession:</div>
+                    <div class="ans">Software Engineer</div>
+                  </div>
+                  <!-- Personal Information cannot be revealed -->
+                  <!-- <div class="info-list">
+                      <div class="ask pink">Phone:</div>
+                      <div class="ans">
+                          <a
+                          target="_blank"
+                          href="https://wa.me/918378813531?text=Hi"
+                          >+91 8378813531</a
+                          >
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-50">
+                  <!-- Personal Information cannot be revealed -->
+                  <!-- <div class="info-list">
+                    <div class="ask pink">Residence:</div>
+                    <div class="ans">India</div>
+                  </div> -->
+                  <div class="info-list">
+                    <div class="ask pink">Address:</div>
+                    <div class="ans">Mumbai, Maharashtra</div>
+                  </div>
+                  <div class="info-list">
+                    <div class="ask pink">E-mail:</div>
+                    <div class="ans" id="desktop-show">
+                      <a href="mailto:deorukhkarshruti232@gmail.com"
+                        >deorukhkarshruti232@gmail.com</a
+                      >
                     </div>
-                    <div class="profession pink">Programmer</div>
-                    <div class="self-intro">
-                        <p class="text">Hello! I am Web Developer from United States, New York. I have <br>
-                            rich
-                            experience in web site design and building, also I am good <br> at wordpress. I
-                            love to talk with you about our unique.</p>
+                    <div class="ans" id="mobile-show">
+                      <a href="mailto:deorukhkarshruti232@gmail.com"
+                        >deorukhkarshruti232@...</a
+                      >
                     </div>
-                    <div class="contact-block">
-                        <a href="#contact">
-                            <button class="contact-btn">Contact Me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-block">
+              <a href="#contact">
+                <button class="contact-btn">Contact Me</button>
+              </a>
+            </div>
+          </div>
+          <div class="service-container" id="service">
+            <div class="title">
+              <h2>Services</h2>
+            </div>
+            <div class="subtitle pink">What do I do</div>
+            <div class="service-block">
+              <div class="row service-list">
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="icon-size"></div>
+                    <div class="mini-title">Web <br />Development</div>
+                    <p class="text">
+                      The web development process includes: web design, web
+                      content, client-side / server-side scripting and network
+                      security configuration.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="icon-size"></div>
+                    <div class="mini-title">Web <br />Development</div>
+                    <p class="text">
+                      The web development process includes: web design, web
+                      content, client-side / server-side scripting and network
+                      security configuration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row service-list">
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="icon-size"></div>
+                    <div class="mini-title">Web <br />Development</div>
+                    <p class="text">
+                      The web development process includes: web design, web
+                      content, client-side / server-side scripting and network
+                      security configuration.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="icon-size"></div>
+                    <div class="mini-title">Web <br />Development</div>
+                    <p class="text">
+                      The web development process includes: web design, web
+                      content, client-side / server-side scripting and network
+                      security configuration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row service-list">
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="icon-size"></div>
+                    <div class="mini-title">Web <br />Development</div>
+                    <p class="text">
+                      The web development process includes: web design, web
+                      content, client-side / server-side scripting and network
+                      security configuration.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="icon-size"></div>
+                    <div class="mini-title">Web <br />Development</div>
+                    <p class="text">
+                      The web development process includes: web design, web
+                      content, client-side / server-side scripting and network
+                      security configuration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience-container" id="experience">
+            <div class="title">
+              <h2>Experience</h2>
+            </div>
+            <div class="subtitle pink">Working With</div>
+            <div class="service-block">
+              <div class="row service-list">
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="additional">
+                      <div class="vert-text">
+                        <span class="pink text-translate">present</span>
+                      </div>
+                      <div class="arrange-title mini-title">
+                        Web <br />Development
+                      </div>
+                    </div>
+                    <p class="text">
+                      Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                      leo. Sed fringilla mauris sit amet nibh. Donec sodales
+                      sagittis magna.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="additional">
+                      <div class="vert-text">
+                        <span class="pink text-translate">2001-2023</span>
+                      </div>
+                      <div class="arrange-title mini-title">
+                        Web <br />Development
+                      </div>
+                    </div>
+                    <p class="text">
+                      Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                      leo. Sed fringilla mauris sit amet nibh. Donec sodales
+                      sagittis magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education-container" id="education">
+            <div class="title">
+              <h2>Education</h2>
+            </div>
+            <div class="subtitle pink">Studied at</div>
+            <div class="service-block">
+              <div class="row service-list">
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="additional">
+                      <div class="vert-text">
+                        <span class="pink text-translate">present</span>
+                      </div>
+                      <div class="arrange-title mini-title">
+                        Web <br />Development
+                      </div>
+                    </div>
+                    <p class="text">
+                      Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                      leo. Sed fringilla mauris sit amet nibh. Donec sodales
+                      sagittis magna.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div class="service-content">
+                    <div class="additional">
+                      <div class="vert-text">
+                        <span class="pink text-translate">present</span>
+                      </div>
+                      <div class="arrange-title mini-title">
+                        Web <br />Development
+                      </div>
+                    </div>
+                    <p class="text">
+                      Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                      leo. Sed fringilla mauris sit amet nibh. Donec sodales
+                      sagittis magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-container" id="skill">
+            <div class="title">
+              <h2>Coding Skills</h2>
+            </div>
+            <div class="subtitle pink">Developing On</div>
+            <div class="skills-block">
+              <div class="row progress-bar">
+                <div class="col-100">
+                  <div class="row skills-heading">
+                    <div class="col-50 skills-title">
+                      <div class="mini-title">WordPress</div>
+                    </div>
+                    <div class="col-50 percentage">80%</div>
+                  </div>
+                  <div class="grey-bar">
+                    <div class="pinky-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row progress-bar">
+                <div class="col-100">
+                  <div class="row skills-heading">
+                    <div class="col-50 skills-title">
+                      <div class="mini-title">WordPress</div>
+                    </div>
+                    <div class="col-50 percentage">80%</div>
+                  </div>
+                  <div class="grey-bar">
+                    <div class="pinky-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row progress-bar">
+                <div class="col-100">
+                  <div class="row skills-heading">
+                    <div class="col-50 skills-title">
+                      <div class="mini-title">WordPress</div>
+                    </div>
+                    <div class="col-50 percentage">80%</div>
+                  </div>
+                  <div class="grey-bar">
+                    <div class="pinky-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row progress-bar">
+                <div class="col-100">
+                  <div class="row skills-heading">
+                    <div class="col-50 skills-title">
+                      <div class="mini-title">WordPress</div>
+                    </div>
+                    <div class="col-50 percentage">80%</div>
+                  </div>
+                  <div class="grey-bar">
+                    <div class="pinky-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row progress-bar">
+                <div class="col-100">
+                  <div class="row skills-heading">
+                    <div class="col-50 skills-title">
+                      <div class="mini-title">WordPress</div>
+                    </div>
+                    <div class="col-50 percentage">80%</div>
+                  </div>
+                  <div class="grey-bar">
+                    <div class="pinky-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-container" id="project">
+            <div class="title">
+              <h2>Project</h2>
+            </div>
+            <div class="subtitle pink">Lastest Works</div>
+            <div class="project-block">
+              <div class="row wrap">
+                <div class="col-50">
+                  <div class="item-block">
+                    <div class="project-img first-project">
+                      <div class="hover-block">
+                        <a
+                          href="https://github.com/MiN6JI/todo-app"
+                          target="_blank"
+                        >
+                          <i
+                            class="fa-solid fa-link fa-2xl"
+                            style="color: #ffffff"
+                          ></i>
                         </a>
+                      </div>
                     </div>
+                    <div class="content">
+                      <h6 class="small-title pink">Vue | Quasar | Pinia</h6>
+                      <p class="mini-title">Todo App</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="about-container" id="about">
-                    <div class="title">
-                        <h2>About Me</h2>
+                <div class="col-50">
+                  <div class="item-block">
+                    <div class="project-img">
+                      <div class="hover-block">
+                        <a href="#">
+                          <i
+                            class="fa-solid fa-link fa-2xl"
+                            style="color: #ffffff"
+                          ></i>
+                        </a>
+                      </div>
                     </div>
-                    <div class="subtitle pink">My Story</div>
-                    <div class="self-intro">
-                        <p class="text">Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed
-                            cursus feugiat,
-                            nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Pellentesque
-                            posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue
-                            blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-                            <br> <br>
-                            Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus
-                            feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-                            Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
-
-                        </p>
+                    <div class="content">
+                      <h6 class="small-title pink">Html | Css</h6>
+                      <p class="mini-title">Web Development</p>
                     </div>
-                    <div class="personal-info">
-                        <div class="row personal-info-list">
-                            <div class="col-50">
-                                <div class="info-list">
-                                    <div class="ask pink">Age:</div>
-                                    <div class="ans"> 24</div>
-                                </div>
-                                <div class="info-list">
-                                    <div class="ask pink">Profession:</div>
-                                    <div class="ans">Software Engineer</div>
-                                </div>
-                                <div class="info-list">
-                                    <div class="ask pink">Phone:</div>
-                                    <div class="ans"><a target="_blank" href="https://wa.me/918378813531?text=Hi">+91
-                                            8378813531</a></div>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="info-list">
-                                    <div class="ask pink">Residence:</div>
-                                    <div class="ans">India</div>
-                                </div>
-                                <div class="info-list">
-                                    <div class="ask pink">Address:</div>
-                                    <div class="ans">Mumbai, Maharashtra</div>
-                                </div>
-                                <div class="info-list">
-                                    <div class="ask pink">E-mail:</div>
-                                    <div class="ans" id="desktop-show"><a
-                                            href="mailto:deorukhkarshruti232@gmail.com">deorukhkarshruti232@gmail.com</a>
-                                    </div>
-                                    <!-- <div class="ans" id="mobile-show"><a href="mailto:deorukhkarshruti232@gmail.com">deorukhkarshruti232@...</a></div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div class="service-container" id="service">
-                    <div class="title">
-                        <h2>Services</h2>
-                    </div>
-                    <div class="subtitle pink">What do I do</div>
-                    <div class="service-block">
-                        <div class="row service-list">
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="icon-size"></div>
-                                    <div class="mini-title">Web <br>Development </div>
-                                    <p class="text">The web development process includes: web design, web
-                                        content, client-side / server-side scripting and network security
-                                        configuration.</p>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="icon-size"></div>
-                                    <div class="mini-title">Web <br>Development </div>
-                                    <p class="text">The web development process includes: web design, web
-                                        content, client-side / server-side scripting and network security
-                                        configuration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row service-list">
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="icon-size"></div>
-                                    <div class="mini-title">Web <br>Development </div>
-                                    <p class="text">The web development process includes: web design, web
-                                        content, client-side / server-side scripting and network security
-                                        configuration.</p>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="icon-size"></div>
-                                    <div class="mini-title">Web <br>Development </div>
-                                    <p class="text">The web development process includes: web design, web
-                                        content, client-side / server-side scripting and network security
-                                        configuration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row service-list">
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="icon-size"></div>
-                                    <div class="mini-title">Web <br>Development </div>
-                                    <p class="text">The web development process includes: web design, web
-                                        content, client-side / server-side scripting and network security
-                                        configuration.</p>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="icon-size"></div>
-                                    <div class="mini-title">Web <br>Development </div>
-                                    <p class="text">The web development process includes: web design, web
-                                        content, client-side / server-side scripting and network security
-                                        configuration.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="experience-container" id="experience">
-                    <div class="title">
-                        <h2>Experience</h2>
-                    </div>
-                    <div class="subtitle pink">Working With</div>
-                    <div class="service-block">
-                        <div class="row service-list">
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="additional">
-                                        <div class="vert-text"><span class="pink text-translate">present</span></div>
-                                        <div class="arrange-title mini-title">Web <br>Development </div>
-                                    </div>
-                                    <p class="text">Etiam sit amet orci eget eros faucibus tincidunt. Duis
-                                        leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                                        magna.</p>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="additional">
-                                        <div class="vert-text"><span class="pink text-translate">2001-2023</span></div>
-                                        <div class="arrange-title mini-title">Web <br>Development </div>
-                                    </div>
-                                    <p class="text">Etiam sit amet orci eget eros faucibus tincidunt. Duis
-                                        leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                                        magna.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="education-container" id="education">
-                    <div class="title">
-                        <h2>Education</h2>
-                    </div>
-                    <div class="subtitle pink">Studied at</div>
-                    <div class="service-block">
-                        <div class="row service-list">
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="additional">
-                                        <div class="vert-text"><span class="pink text-translate">present</span></div>
-                                        <div class="arrange-title mini-title">Web <br>Development </div>
-                                    </div>
-                                    <p class="text">Etiam sit amet orci eget eros faucibus tincidunt. Duis
-                                        leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                                        magna.</p>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="service-content">
-                                    <div class="additional">
-                                        <div class="vert-text"><span class="pink text-translate">present</span></div>
-                                        <div class="arrange-title mini-title">Web <br>Development </div>
-                                    </div>
-                                    <p class="text">Etiam sit amet orci eget eros faucibus tincidunt. Duis
-                                        leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                                        magna.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills-container" id="skill">
-                    <div class="title">
-                        <h2>Coding Skills</h2>
-                    </div>
-                    <div class="subtitle pink">Developing On</div>
-                    <div class="skills-block">
-                        <div class="row progress-bar">
-                            <div class="col-100">
-                                <div class="row skills-heading">
-                                    <div class="col-50 skills-title">
-                                        <div class="mini-title">WordPress</div>
-                                    </div>
-                                    <div class="col-50 percentage">80%</div>
-                                </div>
-                                <div class="grey-bar">
-                                    <div class="pinky-bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row progress-bar">
-                            <div class="col-100">
-                                <div class="row skills-heading">
-                                    <div class="col-50 skills-title">
-                                        <div class="mini-title">WordPress</div>
-                                    </div>
-                                    <div class="col-50 percentage">80%</div>
-                                </div>
-                                <div class="grey-bar">
-                                    <div class="pinky-bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row progress-bar">
-                            <div class="col-100">
-                                <div class="row skills-heading">
-                                    <div class="col-50 skills-title">
-                                        <div class="mini-title">WordPress</div>
-                                    </div>
-                                    <div class="col-50 percentage">80%</div>
-                                </div>
-                                <div class="grey-bar">
-                                    <div class="pinky-bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row progress-bar">
-                            <div class="col-100">
-                                <div class="row skills-heading">
-                                    <div class="col-50 skills-title">
-                                        <div class="mini-title">WordPress</div>
-                                    </div>
-                                    <div class="col-50 percentage">80%</div>
-                                </div>
-                                <div class="grey-bar">
-                                    <div class="pinky-bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row progress-bar">
-                            <div class="col-100">
-                                <div class="row skills-heading">
-                                    <div class="col-50 skills-title">
-                                        <div class="mini-title">WordPress</div>
-                                    </div>
-                                    <div class="col-50 percentage">80%</div>
-                                </div>
-                                <div class="grey-bar">
-                                    <div class="pinky-bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container" id="project">
-                    <div class="title">
-                        <h2>Project</h2>
-                    </div>
-                    <div class="subtitle pink">Lastest Works</div>
-                    <div class="project-block">
-                        <div class="row wrap">
-                            <div class="col-50">
-                                <div class="item-block">
-                                    <div class="project-img first-project">
-                                        <div class="hover-block">
-                                            <a href="https://github.com/MiN6JI/todo-app" target="_blank">
-                                                <i class="fa-solid fa-link fa-2xl" style="color: #ffffff;"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="small-title pink">Vue | Quasar | Pinia</h6>
-                                        <p class="mini-title">Todo App</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-50">
-                                <div class="item-block">
-                                    <div class="project-img">
-                                        <div class="hover-block">
-                                            <a href="#">
-                                                <i class="fa-solid fa-link fa-2xl" style="color: #ffffff;"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="small-title pink">Html | Css</h6>
-                                        <p class="mini-title">Web Development</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-container" id="faq">
-                    <div class="title">
-                        <h2>FAQ</h2>
-                    </div>
-                    <div class="subtitle pink">Know More</div>
-                    <div class="faq-section">
-                        <div class="faq-block b-bttm">
-                            <div class="question">
-                                <p>Why did I choose the name 'Mingji' for my portfolio?</p>
-
-                                <img src="images/arrow-down.png" alt="arrow-up" width="15">
-                            </div>
-                            <div class="answer">
-                                <p class="text">I chose the name 'Mingji' for my portfolio because it's the username I
-                                    use for almost all my accounts. Additionally, 'Mingji' is a fictional character who
-                                    has the ability to control one's emotions. While it has nothing to do with me
-                                    personally, I still liked it!</p>
-                            </div>
-                        </div>
-                        <div class="faq-block b-bttm">
-                            <div class="question">
-                                <p>What mistakes have you covered while creating your portfolio website?</p>
-
-                                <img src="images/arrow-down.png" alt="arrow-up" width="15">
-                            </div>
-                            <div class="answer">
-                                <p class="text">There were quite a few mistakes I made while creating my portfolio
-                                    website. Initially, there was a scrolling issue, and I also faced challenges in
-                                    making the header responsive. If you look closely at the code, you'll notice that
-                                    there are two headers: one for desktop and another for mobile responsiveness.</p>
-                            </div>
-                        </div>
-                        <div class="faq-block">
-                            <div class="question">
-                                <p>What message would you like to share with my viewers?</p>
-
-                                <img src="images/arrow-down.png" alt="arrow-up" width="15">
-                            </div>
-                            <div class="answer">
-                                <p class="text">Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus
-                                    feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec
-                                    elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="contact-container" id="contact">
-                    <div class="title">
-                        <h2>Contact</h2>
-                    </div>
-                    <div class="subtitle pink">Let's Talk</div>
-                    <div class="contact-section">
-                        <form action="https://api.web3forms.com/submit" method="POST" class="form">
-                            <input type="hidden" name="access_key" value="854d650e-aeb8-42ff-86f8-a48357446dd8">
-                            <div class="ipt-block">
-                                <label for="name" class="contact-title">Name<span class="pink">*</span></label>
-                                <input type="text" placeholder="John Doe" name="name" id="name" required>
-                            </div>
-                            <div class="ipt-block">
-                                <label for="email" class="contact-title">Email<span class="pink">*</span></label>
-                                <input type="email" placeholder="xyz@gmail.com" name="email" id="email" required>
-                            </div>
-                            <div class="ipt-block">
-                                <label for="message" class="contact-title">Message<span class="pink">*</span></label>
-                                <textarea name="message" placeholder="To write" id="message" rows="6" cols="100"
-                                    required></textarea>
-                            </div>
-                            <div class="submit-block">
-                                <button type="submit" class="contact-btn">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
-        <div class="social-icons" style="color: white;">
-            <div class="icon-box">
-                <div class="q-icon">
-                    <a href="https://github.com/MiN6JI" target="_blank">
-                        <div class="round"><img src="images/github-big-logo.png" alt="github" width="20px"
-                                height="20px">
-                        </div>
-                    </a>
-                    <a href="https://linktr.ee/Shruti160601" target="_blank">
-                        <div class="round"><img src="images/linkedin.png" alt="github" width="20px" height="20px">
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/shruti-deorukhkar" target="_blank">
-                        <div class="round"><img src="images/link.png" alt="github" width="20px" height="20px">
-                        </div>
-                    </a>
-                </div>
+          </div>
+          <div class="faq-container" id="faq">
+            <div class="title">
+              <h2>FAQ</h2>
             </div>
+            <div class="subtitle pink">Know More</div>
+            <div class="faq-section">
+              <div class="faq-block b-bttm">
+                <div class="question">
+                  <p>Why did I choose the name 'Mingji' for my portfolio?</p>
+
+                  <img src="images/arrow-down.png" alt="arrow-up" width="15" />
+                </div>
+                <div class="answer">
+                  <p class="text">
+                    I chose the name 'Mingji' for my portfolio because it's the
+                    username I use for almost all my accounts. Additionally,
+                    'Mingji' is a fictional character who has the ability to
+                    control one's emotions. While it has nothing to do with me
+                    personally, I still liked it!
+                  </p>
+                </div>
+              </div>
+              <div class="faq-block b-bttm">
+                <div class="question">
+                  <p>
+                    What mistakes have you covered while creating your portfolio
+                    website?
+                  </p>
+
+                  <img src="images/arrow-down.png" alt="arrow-up" width="15" />
+                </div>
+                <div class="answer">
+                  <p class="text">
+                    There were quite a few mistakes I made while creating my
+                    portfolio website. Initially, there was a scrolling issue,
+                    and I also faced challenges in making the header responsive.
+                    If you look closely at the code, you'll notice that there
+                    are two headers: one for desktop and another for mobile
+                    responsiveness.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-block">
+                <div class="question">
+                  <p>What message would you like to share with my viewers?</p>
+
+                  <img src="images/arrow-down.png" alt="arrow-up" width="15" />
+                </div>
+                <div class="answer">
+                  <p class="text">
+                    Pellentesque posuere. Praesent turpis. Aenean posuere,
+                    tortor sed cursus feugiat, nunc augue blandit nunc, eu
+                    sollicitudin urna dolor sagittis lacus. Donec elit libero,
+                    sodales nec, volutpat a, suscipit non, turpis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-container" id="contact">
+            <div class="title">
+              <h2>Contact</h2>
+            </div>
+            <div class="subtitle pink">Let's Talk</div>
+            <div class="contact-section">
+              <form
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                class="form"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="854d650e-aeb8-42ff-86f8-a48357446dd8"
+                />
+                <div class="ipt-block">
+                  <label for="name" class="contact-title"
+                    >Name<span class="pink">*</span></label
+                  >
+                  <input
+                    type="text"
+                    placeholder="John Doe"
+                    name="name"
+                    id="name"
+                    required
+                  />
+                </div>
+                <div class="ipt-block">
+                  <label for="email" class="contact-title"
+                    >Email<span class="pink">*</span></label
+                  >
+                  <input
+                    type="email"
+                    placeholder="xyz@gmail.com"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="ipt-block">
+                  <label for="message" class="contact-title"
+                    >Message<span class="pink">*</span></label
+                  >
+                  <textarea
+                    name="message"
+                    placeholder="To write"
+                    id="message"
+                    rows="6"
+                    cols="100"
+                    required
+                  ></textarea>
+                </div>
+                <div class="submit-block">
+                  <button type="submit" class="contact-btn">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="social-icons" style="color: white">
+        <div class="icon-box">
+          <div class="q-icon">
+            <a href="https://github.com/MiN6JI" target="_blank">
+              <div class="round">
+                <img
+                  src="images/github-big-logo.png"
+                  alt="github"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shruti-deorukhkar"
+              target="_blank"
+            >
+              <div class="round">
+                <img
+                  src="images/linkedin.png"
+                  alt="linkedin"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+            </a>
+            <a href="mailto:deorukhkarshruti232@gmail.com">
+              <div class="round">
+                <img
+                  src="images/link.png"
+                  alt="mail"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
